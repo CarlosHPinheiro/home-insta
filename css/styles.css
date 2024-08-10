@@ -1,4 +1,4 @@
-/* Geral*/
+/* Geral */
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
     font-family: Helvetica;
 }
 
-/* Containers*/
+/* Containers */
 #main-container {
     display: flex;
     margin-top: 30px;
@@ -33,7 +33,7 @@
     text-align: center;
 }
 
-/* Login Form*/
+/* Login Form */
 #form-box {
     background-color: #fff;
     border: 1px solid #dbdbdb;
@@ -95,7 +95,7 @@
     font-size: 14px;
 }
 
-/* Facebook Login*/
+/* Facebook Login */
 #facebook-login {
     margin-bottom: 25px;
 }
@@ -120,7 +120,7 @@
     margin-top: 1px;
 }
 
-/* Forgot Password*/
+/* Forgot Password */
 #forgot-password {
     margin-bottom: 20px;
     font-size: 12px;
