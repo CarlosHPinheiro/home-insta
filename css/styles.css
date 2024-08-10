@@ -202,14 +202,42 @@ footer #footer-links {
     margin-top: 10px;
 }
 
+/* Responsividade */
+
+/* Tablet */
+@media(max-width: 780px) {
+
+    #main-container {
+        margin-left: 10%;
+        width: 115%;
+    }
+
+    #banner-container img {
+        height: 95%;
+    }
+
+    #form-container {
+        margin-left: 5%;
+    }
+}
+
 /* Mobile */
-@media(max-width: 450px) {
+@media (max-width: 450px) {
     body {
         background-color: #fff;
     }
 
     #banner-container {
         display: none;
+    }
+
+    #main-container,
+    #form-container {
+        margin-left: 0;
+    }
+
+    #main-container {
+        width: 100%;
     }
 
     #main-container,
